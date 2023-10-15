@@ -13,8 +13,6 @@ ANIMA is an Advanced Nature Inspired Multidisciplinary Assistant designed to pro
 ## Features 
 
 - **Multidisciplinary Knowledge**: Expert in biomimicry, biology, engineering, and more.
-- **Embeddings**: Chat with your PDF
-
 ---
 
 ## Installation 
