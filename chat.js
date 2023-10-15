@@ -9,6 +9,13 @@ To support more origins, you can use the OLLAMA_ORIGINS environment variable:
 OLLAMA_ORIGINS=${window.location.origin} ollama serve
 \`\`\`
 
+If you need to download ANIMA just enter the command below in your termial:
+
+\`\`\`
+ollama run severian/anima
+\`\`\`
+
+
 Also see: https://github.com/jmorganca/ollama/blob/main/docs/faq.md
 `;
 
