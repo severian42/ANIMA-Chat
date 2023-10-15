@@ -235,12 +235,13 @@ async function submitRequest() {
   document.getElementById('user-input').value = '';
 }
 
-// Event listener for Ctrl + Enter or CMD + Enter
 document.getElementById('user-input').addEventListener('keydown', function (e) {
-  if ((e.ctrlKey || e.metaKey) && e.key === 'Enter') {
-    submitRequest();
+  if (e.key === 'Enter' && !e.shiftKey) {  // Check for Enter key and ensure Shift is not held down
+    e.preventDefault(); // Prevent a new line from being added to the input box
+    submitRequest();  // Your function to submit the message
   }
 });
+
 
 
 window.onload = () => {
