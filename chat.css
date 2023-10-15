@@ -48,9 +48,6 @@ body {
   flex-direction: column;
   background-image: url('/DALL·E\ 2023-10-10\ 09.19.01\ -\ Realistic\ emblem\ that\ showcases\ the\ fusion\ of\ technology\ and\ nature\,\ intertwined\ with\ elements\ of\ sacred\ geometry.\ Picture\ a\ motherboard\ or\ microchip\ .png 2023-10-10 09.19.01 - Realistic emblem that showcases the fusion of technology and nature, intertwined with elements of sacred geometry. Picture a motherboard or microchip .png'); /* Replace with your image's URL or path */
   background-size: cover; /* Cover the entire chat area */
-  background-repeat: no-repeat; /* Don't repeat the image */
-  background-color: rgba(0, 0, 0, 0.5); /* Overlay with semi-transparent black */
-  background-blend-mode: multiply;
 }
 
 .copy-button {
