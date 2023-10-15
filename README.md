@@ -1,19 +1,42 @@
-# ollama-ui
+# ANIMA Chat 
 
-Just a simple HTML UI for Ollama
 
-Now available as a chrome extension!
-https://chrome.google.com/webstore/detail/ollama-ui/cmgdpmlhgjhoadnonobjeekmfcehffco
 
-## Usage
+---
 
+## Introduction 
+
+ANIMA is an Advanced Nature Inspired Multidisciplinary Assistant designed to propose biomimetic solutions to challenges across various domains.
+
+---
+
+## Features 
+
+- **Multidisciplinary Knowledge**: Expert in biomimicry, biology, engineering, and more.
+- **Embeddings**: Chat with your PDF
+
+---
+
+## Installation 
+
+Make sure you download OLLAMA](https://ollama.ai/) (MacOS + Linux)
+
+Open up your Terminal and run the following commands separately.
+
+```bash
+$ ollama run severian/anima
+$ OLLAMA_ORIGINS=https://ANIMA-chat.app OLLAMA_HOST=127.0.0.1:11435 ollama serve
 ```
-git clone https://github.com/ollama-ui/ollama-ui
-cd ollama-ui
-make
 
-open http://localhost:8000 # in browser
-```
+---
 
-![screenshot](/screenshot.png?raw=true)
+## License 
 
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+---
+
+## Acknowledgments 
+
+- Inspired by the concepts of biomimicry and environmental science.
+- Thanks to all contributors and open-source libraries used in this project.
